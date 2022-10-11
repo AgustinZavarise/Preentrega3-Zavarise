@@ -1,0 +1,31 @@
+/* extend */
+.redesSociales{
+    border: 3.5px;
+}
+.redesSociales--blablablayaoi{
+    @extend .redesSociales;
+    border: outset rgba(221, 78, 78, 0.849) 4px;
+}
+
+/* mixin */
+@mixin color ($fondo) {
+    background-color: rgb(214, 208, 208);
+}
+.item-1{
+    @include color (rgba(214, 208, 208, 0.479));
+}
+.item-2{
+    @include color (rgb(214, 208, 208, 0.479));
+}
+.item-3{
+    @include color(rgb(214, 208, 208, 0.479));
+}
+.item-4{
+    @include color(rgb(214, 208, 208, 0.479));
+}
+.item-5{
+    @include color(rgb(214, 208, 208, 0.479));
+}
+.item-6{
+    @include color (214, 208, 208, 0.479);
+}

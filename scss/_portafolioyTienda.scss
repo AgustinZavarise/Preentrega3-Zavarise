@@ -1,0 +1,74 @@
+/* Grillas */
+
+header{
+    grid-area: header;
+}
+main{
+    grid-area: contenido;
+}
+footer{
+    grid-area: footer;
+}
+
+
+/* Portafolio */
+
+.galeria{
+    margin: 0%;
+    background-color: #EBEBEB;
+    margin-bottom: 1.5em;
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "nav"
+    "galeria"
+    "footer"
+}
+.padre{
+    margin: 0%;
+    background-color: #EBEBEB;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+}
+.imgcontainer{
+    width: 75vw;
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+}
+
+
+/* Tienda */
+
+.card{
+    background-color: #EBEBEB;
+    border: 1px solid #EBEBEB;
+    border-radius: 20px;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.items{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.tienda{
+    width: 250px;
+    height: 327px;
+}
+
+
+.grid-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
