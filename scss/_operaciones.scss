@@ -1,13 +1,13 @@
-/* extend */
+
 .redesSociales{
     border: 3.5px;
 }
 .redesSociales--blablablayaoi{
     @extend .redesSociales;
-    border: outset rgba(221, 78, 78, 0.849) 4px;
+    border: outset (rgba(214, 208, 208, 0.479)) 4px;
 }
 
-/* mixin */
+
 @mixin color ($fondo) {
     background-color: rgb(214, 208, 208);
 }
@@ -27,5 +27,29 @@
     @include color(rgb(214, 208, 208, 0.479));
 }
 .item-6{
-    @include color (214, 208, 208, 0.479);
+    @include color (rgb(214, 208, 208, 0.479));
+}
+.item-7{
+    @include color (rgb(214, 208, 208, 0.479));
+}
+.item-8{
+    @include color (rgb(214, 208, 208, 0.479));
+}
+.item-9{
+    @include color (rgb(214, 208, 208, 0.479));
+}
+.item-10{
+    @include color (rgb(214, 208, 208, 0.479));
+}
+.item-11{
+    @include color (rgb(214, 208, 208, 0.479));
+}
+.item-12{
+    @include color (rgb(214, 208, 208, 0.479));
+}
+.item-13{
+    @include color (rgb(214, 208, 208, 0.479));
+}
+.item-14{
+    @include color (rgb(214, 208, 208, 0.479));
 }

@@ -33,10 +33,10 @@ footer{
     justify-items: center;
 }
 .imgcontainer{
-    width: 75vw;
-    max-width: 1000px;
-    min-width: 320px;
-    margin: auto;
+    margin-top: 15px;
+    border-width: 8px;
+    border-style: solid;
+    border-color: grey;
 }
 
 
@@ -45,12 +45,13 @@ footer{
 .card{
     background-color: #EBEBEB;
     border: 1px solid #EBEBEB;
-    border-radius: 20px;
+    border-radius: 10px;
     width: 320px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-bottom: 17px;
 }
 .items{
     display: flex;
@@ -58,8 +59,10 @@ footer{
     align-items:center;
 }
 .tienda{
-    width: 250px;
+    width: 288px;
     height: 327px;
+    margin-top: 10px;
+    border-radius: 4.5px
 }
 
 
@@ -69,6 +72,14 @@ footer{
     align-items: center;
     justify-content: center;
 }
-
+button{
+    background-color: gray;
+    margin-bottom: 10px;
+    padding: 3px;
+}
+.precio{
+    margin-bottom: 4px;
+    margin-top: -20px;
+}
 
 

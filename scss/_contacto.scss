@@ -12,7 +12,29 @@ input{
 
 .bottom{
     width: 170px;
+    margin-top: 10px;
+    background: rgb(195 52 52 / 48%);
+    box-shadow: 0 8px 32px 0 rgb(143 48 145 / 39%);
+    border-radius: 10px;
+    border: 1px solid rgb(224 226 217 / 14%);
 }
 textarea{
-    width: 290px;
+    width: 319px;
 }
+
+.grid-container2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.formulario {
+    border-radius: 20px;
+    background-color:rgba(255, 0, 0, 0.32);
+    margin: 30px;
+    padding-right: 80px;
+    padding-bottom: 18px;
+    padding-left: 15px;
+}
+
